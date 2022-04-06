@@ -14,7 +14,7 @@ This tool is made to make the process of using MemoryStoreService more easy and 
         - `Queue:Read(count: number, allOrNothing: boolean, waitTimeout: number)`
         - `Queue:Remove(value: any, expiration: number, priority: number)`
     - <b>SortedMap</b>
-        - `Queue:Set(key: string, value: any, expiration: number)`
-        - `Queue:GetRange(direction: SortDirection, count: IntValue, exclusiveLowerBound: string?, exclusiveUpperBound: string?)`
-        - `Queue:Update(key: string, callback: function, expiration: IntValue)`
-        - `Queue:Remove(key: string)`
+        - `SortedMap:Set(key: string, value: any, expiration: number)`
+        - `SortedMap:GetRange(direction: SortDirection, count: IntValue, exclusiveLowerBound: string?, exclusiveUpperBound: string?)`
+        - `SortedMap:Update(key: string, callback: function, expiration: IntValue)`
+        - `SortedMap:Remove(key: string)`
